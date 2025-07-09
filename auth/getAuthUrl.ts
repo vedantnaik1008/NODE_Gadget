@@ -5,9 +5,6 @@ const responseType = 'code';
 const accessType = 'offline';
 const prompt = 'consent';
 
-console.log('Client ID:', process.env.ZOHO_CLIENT_ID);
-console.log('Redirect URI:', process.env.ZOHO_REDIRECT_URI);
-
 
 export const getZohoAuthUrl = (): string => {
     const base = 'https://accounts.zoho.in/oauth/v2/auth';
