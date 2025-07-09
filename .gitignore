@@ -1,0 +1,27 @@
+# Node dependencies
+node_modules/
+
+# TypeScript compiled output
+dist/
+*.tsbuildinfo
+
+# Local environment variables
+.env
+
+# IDE settings
+.vscode/
+.idea/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Token files
+zoho_tokens.json
