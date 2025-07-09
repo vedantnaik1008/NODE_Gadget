@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 export const getZohoTokens = async (code: string) => {
-    const url = 'https://accounts.zoho.com/oauth/v2/token';
+    const url = 'https://accounts.zoho.in/oauth/v2/token';
 
     const response = await axios.post(url, null, {
         params: {

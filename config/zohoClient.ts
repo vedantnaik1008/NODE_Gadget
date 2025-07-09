@@ -2,7 +2,7 @@ import axios from 'axios';
 import { getAccessToken } from '../auth/tokenManager';
 
 const zohoClient = axios.create({
-    baseURL: 'https://inventory.zoho.com/api/v1',
+    baseURL: 'https://www.zohoapis.in/inventory/v1',
     headers: {
         'Content-Type': 'application/json'
     }
