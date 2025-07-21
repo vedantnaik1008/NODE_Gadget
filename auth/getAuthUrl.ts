@@ -1,6 +1,6 @@
 const clientId = process.env.ZOHO_CLIENT_ID!;
 const redirectUri = process.env.ZOHO_REDIRECT_URI!;
-const scope = 'ZohoInventory.fullaccess.all';
+const scope = 'ZohoInventory.items.ALL'; 
 const responseType = 'code';
 const accessType = 'offline';
 const prompt = 'consent';
